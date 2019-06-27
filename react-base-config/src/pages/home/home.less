@@ -1,0 +1,36 @@
+.card-warp{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .card-item{
+        width: 220px;
+        flex: 0 220px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        position: relative;
+        &:nth-child(5n){
+            margin-right: 0
+        }
+        .icon-warp{
+            height: 30px;
+            width: 30px;
+            top:0;
+            right: 0;
+            position: absolute;
+            line-height: 30px;
+            text-align: center;
+            cursor: pointer;
+            i{
+                font-size: 18px;
+            }
+            &:hover{
+                color: #40a9ff;
+            }
+        }
+    }
+}
+.buttom-warp{
+    width: 100%;
+    margin-top:20px;
+    text-align: center;
+}
